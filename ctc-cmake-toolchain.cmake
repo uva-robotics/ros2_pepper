@@ -288,6 +288,10 @@ if(
   )
 elseif(
   PROJECT_NAME STREQUAL "naoqi_driver" OR
+  PROJECT_NAME STREQUAL "naoqi_dcm_driver" OR
+  PROJECT_NAME STREQUAL "ros_control" OR
+  PROJECT_NAME STREQUAL "controller_manager_tests" OR
+  PROJECT_NAME STREQUAL "combined_robot_hw_tests" OR
   PROJECT_NAME STREQUAL "image_proc"
 )
   set(_link_flags

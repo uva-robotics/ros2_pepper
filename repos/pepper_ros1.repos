@@ -121,19 +121,19 @@ repositories:
     version: 3a1adf17046b8d0f7910b708224a08b79d971053
   naoqi_bridge_msgs:
     type: git
-    url: https://github.com/ros-naoqi/naoqi_bridge_msgs-release.git
-    version: e25d4dc6b0e1cb5406be183cd9c486086a41dc82
+    url: https://github.com/uva-robotics/naoqi_bridge_msgs.git
+    version: master
   naoqi_driver:
     type: git
-    url: https://github.com/esteve/naoqi_driver.git
-    version: bz2-cmake
+    url: https://github.com/uva-robotics/naoqi_driver.git
+    version: master
   naoqi_libqi:
     type: git
-    url: https://github.com/esteve/libqi-release.git
+    url: https://github.com/uva-robotics/libqi-release.git
     version: boost-cmake
   naoqi_libqicore:
     type: git
-    url: https://github.com/esteve/libqicore-release.git
+    url: https://github.com/uva-robotics/libqicore-release.git
     version: boost-cmake
   opencv3:
     type: git
@@ -359,3 +359,15 @@ repositories:
     type: git
     url: https://github.com/esteve/rosauth.git
     version: fix-openssl
+  naoqi_dcm_driver:
+    type: git
+    url: https://github.com/uva-robotics/naoqi_dcm_driver.git
+    version: master
+  ros_control:
+    type: git
+    url: https://github.com/ros-controls/ros_control.git
+    version: kinetic-devel
+  pepper_dcm_robot:
+    type: git
+    url: https://github.com/ros-naoqi/pepper_dcm_robot.git
+    version: master
